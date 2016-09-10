@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E5100741D82D99900521F1D /* AuthorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5100731D82D99900521F1D /* AuthorHelper.m */; };
+		5E5C72CB1D80EE5C00ED473B /* LocalFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C72C81D80EE5C00ED473B /* LocalFileManager.m */; };
+		5E5C72CC1D80EE5C00ED473B /* MyCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C72CA1D80EE5C00ED473B /* MyCommonTool.m */; };
+		5E5C72CF1D80EF6500ED473B /* launchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C72CE1D80EF6500ED473B /* launchImage.jpg */; };
+		5E5C72D21D81788A00ED473B /* ZDPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C72D11D81788A00ED473B /* ZDPDetailViewController.m */; };
 		5E9D6D111D7FAEEF00D859AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D101D7FAEEF00D859AD /* main.m */; };
 		5E9D6D141D7FAEEF00D859AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D131D7FAEEF00D859AD /* AppDelegate.m */; };
 		5E9D6D171D7FAEEF00D859AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D161D7FAEEF00D859AD /* ViewController.m */; };
@@ -15,6 +20,20 @@
 		5E9D6D1F1D7FAEEF00D859AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9D6D1D1D7FAEEF00D859AD /* LaunchScreen.storyboard */; };
 		5E9D6D2A1D7FAEEF00D859AD /* ForYourHealthOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D291D7FAEEF00D859AD /* ForYourHealthOneTests.m */; };
 		5E9D6D351D7FAEEF00D859AD /* ForYourHealthOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D341D7FAEEF00D859AD /* ForYourHealthOneUITests.m */; };
+		5E9D6D471D7FB29B00D859AD /* ZDPUpLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D461D7FB29B00D859AD /* ZDPUpLoadViewController.m */; };
+		5E9D6D4A1D7FB2D800D859AD /* ZDPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D491D7FB2D800D859AD /* ZDPMainViewController.m */; };
+		5E9D6D4D1D7FB31F00D859AD /* ZDPArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D4C1D7FB31F00D859AD /* ZDPArticleViewController.m */; };
+		5E9D6D511D7FC0F600D859AD /* UIViewController+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D501D7FC0F600D859AD /* UIViewController+Utility.m */; };
+		5E9D6D541D7FC36A00D859AD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D531D7FC36A00D859AD /* BaseViewController.m */; };
+		5E9D6D581D7FE52B00D859AD /* BaseZDPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D571D7FE52B00D859AD /* BaseZDPTabBarController.m */; };
+		5E9D6D5B1D7FE56200D859AD /* BaseZDPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D5A1D7FE56200D859AD /* BaseZDPNavigationController.m */; };
+		5E9D6D601D8001E000D859AD /* MyArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D5E1D8001E000D859AD /* MyArticleTableViewCell.m */; };
+		5E9D6D611D8001E000D859AD /* MyArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E9D6D5F1D8001E000D859AD /* MyArticleTableViewCell.xib */; };
+		5E9D6D641D80099600D859AD /* MyArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D631D80099600D859AD /* MyArticleModel.m */; };
+		5E9D6D6C1D800C5700D859AD /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D681D800C5700D859AD /* MBProgressHUD+Add.m */; };
+		5E9D6D6D1D800C5700D859AD /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E9D6D691D800C5700D859AD /* MBProgressHUD.bundle */; };
+		5E9D6D6E1D800C5700D859AD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D6B1D800C5700D859AD /* MBProgressHUD.m */; };
+		5E9D6D711D800CDA00D859AD /* UINavigationItem+margin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6D701D800CDA00D859AD /* UINavigationItem+margin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E5100721D82D99900521F1D /* AuthorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorHelper.h; sourceTree = "<group>"; };
+		5E5100731D82D99900521F1D /* AuthorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorHelper.m; sourceTree = "<group>"; };
+		5E5C72C71D80EE5C00ED473B /* LocalFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalFileManager.h; sourceTree = "<group>"; };
+		5E5C72C81D80EE5C00ED473B /* LocalFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalFileManager.m; sourceTree = "<group>"; };
+		5E5C72C91D80EE5C00ED473B /* MyCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCommonTool.h; sourceTree = "<group>"; };
+		5E5C72CA1D80EE5C00ED473B /* MyCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCommonTool.m; sourceTree = "<group>"; };
+		5E5C72CE1D80EF6500ED473B /* launchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launchImage.jpg; sourceTree = "<group>"; };
+		5E5C72D01D81788A00ED473B /* ZDPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPDetailViewController.h; sourceTree = "<group>"; };
+		5E5C72D11D81788A00ED473B /* ZDPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPDetailViewController.m; sourceTree = "<group>"; };
 		5E9D6D0C1D7FAEEF00D859AD /* ForYourHealthOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForYourHealthOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9D6D101D7FAEEF00D859AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E9D6D121D7FAEEF00D859AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +79,33 @@
 		5E9D6D301D7FAEEF00D859AD /* ForYourHealthOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForYourHealthOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9D6D341D7FAEEF00D859AD /* ForYourHealthOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForYourHealthOneUITests.m; sourceTree = "<group>"; };
 		5E9D6D361D7FAEEF00D859AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9D6D451D7FB29B00D859AD /* ZDPUpLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPUpLoadViewController.h; sourceTree = "<group>"; };
+		5E9D6D461D7FB29B00D859AD /* ZDPUpLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPUpLoadViewController.m; sourceTree = "<group>"; };
+		5E9D6D481D7FB2D800D859AD /* ZDPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPMainViewController.h; sourceTree = "<group>"; };
+		5E9D6D491D7FB2D800D859AD /* ZDPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPMainViewController.m; sourceTree = "<group>"; };
+		5E9D6D4B1D7FB31F00D859AD /* ZDPArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPArticleViewController.h; sourceTree = "<group>"; };
+		5E9D6D4C1D7FB31F00D859AD /* ZDPArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPArticleViewController.m; sourceTree = "<group>"; };
+		5E9D6D4F1D7FC0F600D859AD /* UIViewController+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utility.h"; sourceTree = "<group>"; };
+		5E9D6D501D7FC0F600D859AD /* UIViewController+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utility.m"; sourceTree = "<group>"; };
+		5E9D6D521D7FC36A00D859AD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		5E9D6D531D7FC36A00D859AD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		5E9D6D551D7FC47D00D859AD /* ZDP.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDP.pch; sourceTree = "<group>"; };
+		5E9D6D561D7FE52B00D859AD /* BaseZDPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseZDPTabBarController.h; sourceTree = "<group>"; };
+		5E9D6D571D7FE52B00D859AD /* BaseZDPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseZDPTabBarController.m; sourceTree = "<group>"; };
+		5E9D6D591D7FE56200D859AD /* BaseZDPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseZDPNavigationController.h; sourceTree = "<group>"; };
+		5E9D6D5A1D7FE56200D859AD /* BaseZDPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseZDPNavigationController.m; sourceTree = "<group>"; };
+		5E9D6D5D1D8001E000D859AD /* MyArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyArticleTableViewCell.h; sourceTree = "<group>"; };
+		5E9D6D5E1D8001E000D859AD /* MyArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyArticleTableViewCell.m; sourceTree = "<group>"; };
+		5E9D6D5F1D8001E000D859AD /* MyArticleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyArticleTableViewCell.xib; sourceTree = "<group>"; };
+		5E9D6D621D80099600D859AD /* MyArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyArticleModel.h; sourceTree = "<group>"; };
+		5E9D6D631D80099600D859AD /* MyArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyArticleModel.m; sourceTree = "<group>"; };
+		5E9D6D671D800C5700D859AD /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		5E9D6D681D800C5700D859AD /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		5E9D6D691D800C5700D859AD /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		5E9D6D6A1D800C5700D859AD /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5E9D6D6B1D800C5700D859AD /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		5E9D6D6F1D800CDA00D859AD /* UINavigationItem+margin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+margin.h"; sourceTree = "<group>"; };
+		5E9D6D701D800CDA00D859AD /* UINavigationItem+margin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+margin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +133,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E5C72CD1D80EF5D00ED473B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5E5C72CE1D80EF6500ED473B /* launchImage.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		5E9D6D031D7FAEEF00D859AD = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +164,18 @@
 		5E9D6D0E1D7FAEEF00D859AD /* ForYourHealthOne */ = {
 			isa = PBXGroup;
 			children = (
+				5E5C72CD1D80EF5D00ED473B /* Resource */,
+				5E9D6D651D800C2000D859AD /* Vender */,
+				5E9D6D5C1D7FFAA000D859AD /* Tool */,
+				5E9D6D4E1D7FC09500D859AD /* Category */,
+				5E9D6D441D7FB12B00D859AD /* CustomView */,
+				5E9D6D431D7FB0DC00D859AD /* ViewController */,
+				5E9D6D421D7FB0CA00D859AD /* Model */,
 				5E9D6D121D7FAEEF00D859AD /* AppDelegate.h */,
 				5E9D6D131D7FAEEF00D859AD /* AppDelegate.m */,
 				5E9D6D151D7FAEEF00D859AD /* ViewController.h */,
 				5E9D6D161D7FAEEF00D859AD /* ViewController.m */,
+				5E9D6D551D7FC47D00D859AD /* ZDP.pch */,
 				5E9D6D181D7FAEEF00D859AD /* Main.storyboard */,
 				5E9D6D1B1D7FAEEF00D859AD /* Assets.xcassets */,
 				5E9D6D1D1D7FAEEF00D859AD /* LaunchScreen.storyboard */,
@@ -138,6 +209,90 @@
 				5E9D6D361D7FAEEF00D859AD /* Info.plist */,
 			);
 			path = ForYourHealthOneUITests;
+			sourceTree = "<group>";
+		};
+		5E9D6D421D7FB0CA00D859AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D6D621D80099600D859AD /* MyArticleModel.h */,
+				5E9D6D631D80099600D859AD /* MyArticleModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E9D6D431D7FB0DC00D859AD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D6D451D7FB29B00D859AD /* ZDPUpLoadViewController.h */,
+				5E9D6D461D7FB29B00D859AD /* ZDPUpLoadViewController.m */,
+				5E9D6D481D7FB2D800D859AD /* ZDPMainViewController.h */,
+				5E9D6D491D7FB2D800D859AD /* ZDPMainViewController.m */,
+				5E9D6D4B1D7FB31F00D859AD /* ZDPArticleViewController.h */,
+				5E9D6D4C1D7FB31F00D859AD /* ZDPArticleViewController.m */,
+				5E9D6D521D7FC36A00D859AD /* BaseViewController.h */,
+				5E9D6D531D7FC36A00D859AD /* BaseViewController.m */,
+				5E9D6D561D7FE52B00D859AD /* BaseZDPTabBarController.h */,
+				5E9D6D571D7FE52B00D859AD /* BaseZDPTabBarController.m */,
+				5E9D6D591D7FE56200D859AD /* BaseZDPNavigationController.h */,
+				5E9D6D5A1D7FE56200D859AD /* BaseZDPNavigationController.m */,
+				5E5C72D01D81788A00ED473B /* ZDPDetailViewController.h */,
+				5E5C72D11D81788A00ED473B /* ZDPDetailViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5E9D6D441D7FB12B00D859AD /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D6D5D1D8001E000D859AD /* MyArticleTableViewCell.h */,
+				5E9D6D5E1D8001E000D859AD /* MyArticleTableViewCell.m */,
+				5E9D6D5F1D8001E000D859AD /* MyArticleTableViewCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		5E9D6D4E1D7FC09500D859AD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D6D6F1D800CDA00D859AD /* UINavigationItem+margin.h */,
+				5E9D6D701D800CDA00D859AD /* UINavigationItem+margin.m */,
+				5E9D6D4F1D7FC0F600D859AD /* UIViewController+Utility.h */,
+				5E9D6D501D7FC0F600D859AD /* UIViewController+Utility.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5E9D6D5C1D7FFAA000D859AD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5E5C72C71D80EE5C00ED473B /* LocalFileManager.h */,
+				5E5C72C81D80EE5C00ED473B /* LocalFileManager.m */,
+				5E5C72C91D80EE5C00ED473B /* MyCommonTool.h */,
+				5E5C72CA1D80EE5C00ED473B /* MyCommonTool.m */,
+				5E5100721D82D99900521F1D /* AuthorHelper.h */,
+				5E5100731D82D99900521F1D /* AuthorHelper.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		5E9D6D651D800C2000D859AD /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D6D661D800C5700D859AD /* MBProgressHUD */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		5E9D6D661D800C5700D859AD /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D6D671D800C5700D859AD /* MBProgressHUD+Add.h */,
+				5E9D6D681D800C5700D859AD /* MBProgressHUD+Add.m */,
+				5E9D6D691D800C5700D859AD /* MBProgressHUD.bundle */,
+				5E9D6D6A1D800C5700D859AD /* MBProgressHUD.h */,
+				5E9D6D6B1D800C5700D859AD /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +362,7 @@
 				TargetAttributes = {
 					5E9D6D0B1D7FAEEF00D859AD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 29ZNNLYQCL;
 					};
 					5E9D6D241D7FAEEF00D859AD = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,8 +399,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9D6D611D8001E000D859AD /* MyArticleTableViewCell.xib in Resources */,
 				5E9D6D1F1D7FAEEF00D859AD /* LaunchScreen.storyboard in Resources */,
+				5E9D6D6D1D800C5700D859AD /* MBProgressHUD.bundle in Resources */,
 				5E9D6D1C1D7FAEEF00D859AD /* Assets.xcassets in Resources */,
+				5E5C72CF1D80EF6500ED473B /* launchImage.jpg in Resources */,
 				5E9D6D1A1D7FAEEF00D859AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +429,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9D6D601D8001E000D859AD /* MyArticleTableViewCell.m in Sources */,
+				5E5100741D82D99900521F1D /* AuthorHelper.m in Sources */,
+				5E9D6D4D1D7FB31F00D859AD /* ZDPArticleViewController.m in Sources */,
+				5E9D6D541D7FC36A00D859AD /* BaseViewController.m in Sources */,
+				5E5C72CB1D80EE5C00ED473B /* LocalFileManager.m in Sources */,
 				5E9D6D171D7FAEEF00D859AD /* ViewController.m in Sources */,
 				5E9D6D141D7FAEEF00D859AD /* AppDelegate.m in Sources */,
+				5E5C72D21D81788A00ED473B /* ZDPDetailViewController.m in Sources */,
+				5E9D6D471D7FB29B00D859AD /* ZDPUpLoadViewController.m in Sources */,
+				5E9D6D641D80099600D859AD /* MyArticleModel.m in Sources */,
+				5E5C72CC1D80EE5C00ED473B /* MyCommonTool.m in Sources */,
+				5E9D6D6C1D800C5700D859AD /* MBProgressHUD+Add.m in Sources */,
+				5E9D6D511D7FC0F600D859AD /* UIViewController+Utility.m in Sources */,
+				5E9D6D581D7FE52B00D859AD /* BaseZDPTabBarController.m in Sources */,
+				5E9D6D4A1D7FB2D800D859AD /* ZDPMainViewController.m in Sources */,
 				5E9D6D111D7FAEEF00D859AD /* main.m in Sources */,
+				5E9D6D5B1D7FE56200D859AD /* BaseZDPNavigationController.m in Sources */,
+				5E9D6D711D800CDA00D859AD /* UINavigationItem+margin.m in Sources */,
+				5E9D6D6E1D800C5700D859AD /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +588,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HongTao Guo (29ZNNLYQCL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HongTao Guo (29ZNNLYQCL)";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ForYourHealthOne/ZDP.pch";
 				INFOPLIST_FILE = ForYourHealthOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sbyy.ForYourHealthOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "809af7ab-b637-4dcd-b10e-15a061e120d4";
 			};
 			name = Debug;
 		};
@@ -424,10 +604,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HongTao Guo (29ZNNLYQCL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HongTao Guo (29ZNNLYQCL)";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ForYourHealthOne/ZDP.pch";
 				INFOPLIST_FILE = ForYourHealthOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sbyy.ForYourHealthOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "809af7ab-b637-4dcd-b10e-15a061e120d4";
 			};
 			name = Release;
 		};
@@ -496,6 +681,7 @@
 				5E9D6D3B1D7FAEEF00D859AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E9D6D3C1D7FAEEF00D859AD /* Build configuration list for PBXNativeTarget "ForYourHealthOneTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +690,7 @@
 				5E9D6D3E1D7FAEEF00D859AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E9D6D3F1D7FAEEF00D859AD /* Build configuration list for PBXNativeTarget "ForYourHealthOneUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +699,7 @@
 				5E9D6D411D7FAEEF00D859AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

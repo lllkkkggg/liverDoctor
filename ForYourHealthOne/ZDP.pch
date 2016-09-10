@@ -1,0 +1,21 @@
+//
+//  ZDP.pch
+//  ForYourHealthOne
+//
+//  Created by iosOne on 16/9/7.
+//  Copyright © 2016年 吕盼举. All rights reserved.
+//
+
+#ifndef ZDP_pch
+#define ZDP_pch
+
+#import "BaseViewController.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+Add.h"
+#import "MyArticleModel.h"
+#import "LocalFileManager.h"
+#import "MyCommonTool.h"
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+
+#endif /* ZDP_pch */
