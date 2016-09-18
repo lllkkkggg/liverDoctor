@@ -11,7 +11,7 @@
 #import "MyArticleTableViewCell.h"
 #import "ZDPDetailViewController.h"
 
-@interface ZDPArticleViewController ()<UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate,UISearchResultsUpdating,UISearchControllerDelegate,MyArticleTableViewCellDelegate>
+@interface ZDPArticleViewController ()<UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate,UISearchControllerDelegate,MyArticleTableViewCellDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property(nonatomic,strong)UISearchController *searchController;
@@ -19,6 +19,7 @@
 @property(nonatomic,strong)NSMutableArray *searchResultArray;
 @property(nonatomic,strong)NSMutableArray *dataArray;
 @property(nonatomic,assign)int type;
+@property(nonnull,copy)NSString *searchStr;
 @end
 
 @implementation ZDPArticleViewController
@@ -140,10 +141,12 @@
     if (_type == 1)
     {
         model = (MyArticleModel *)self.searchResultArray[indexPath.row];
+        cell.searchStr = _searchStr;
     }
     else
     {
         model = (MyArticleModel *)self.dataArray[indexPath.row];
+        cell.searchStr = nil;
     }
     [cell configWithArticle:model];
     cell.delegate = self;
@@ -223,6 +226,7 @@
 {
      [self.searchResultArray removeAllObjects];
     NSString *searchString = searchText;
+    _searchStr = searchText;
     if (searchString && searchString.length > 0)
     {
         for (MyArticleModel *tempModel in self.dataArray)

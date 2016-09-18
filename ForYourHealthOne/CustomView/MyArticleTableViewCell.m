@@ -28,8 +28,22 @@
 -(void)configWithArticle:(MyArticleModel *)model
 {
     self.model = model;
-    self.titleLab.text = model.title;
-    self.contentLab.text = model.content;
+    if (self.searchStr)
+    {
+        NSMutableAttributedString * attributedString1 = [[NSMutableAttributedString alloc] initWithString:model.title attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]}];
+        NSMutableAttributedString * attributedString2 = [[NSMutableAttributedString alloc] initWithString:model.content attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]}];
+        NSRange range1 = [model.title rangeOfString:_searchStr];
+        [attributedString1 addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:range1];
+        NSRange range2 = [model.content rangeOfString:_searchStr];
+        [attributedString2 addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:range2];
+        self.titleLab.attributedText = attributedString1;
+        self.contentLab.attributedText = attributedString2;
+    }
+    else
+    {
+        self.titleLab.text = model.title;
+        self.contentLab.text = model.content;
+    }
     self.timeLab.text = model.timeStr;
     float height = [MyCommonTool getHeightOfText:model.content forWidth:self.frame.size.width-25 andFontsize:15];
     if (height > 50)

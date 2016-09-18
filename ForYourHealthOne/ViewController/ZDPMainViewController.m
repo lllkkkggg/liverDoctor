@@ -9,6 +9,7 @@
 #import "ZDPMainViewController.h"
 #import "MyArticleTableViewCell.h"
 #import "ZDPDetailViewController.h"
+#import "AuthorHelper.h"
 
 @interface ZDPMainViewController ()<UITableViewDelegate,UITableViewDataSource,MyArticleTableViewCellDelegate>
 
@@ -52,6 +53,7 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+        [AuthorHelper authenticateUser]; 
     if ([LocalFileManager readFromFile])
     {
         [self.dataArray removeAllObjects];

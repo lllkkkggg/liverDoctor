@@ -30,6 +30,7 @@
 @property(nonatomic,assign)NSInteger index;
 @property(nonatomic,assign)NSInteger row;
 @property(nonatomic,assign)BOOL isAll;
+@property(nonatomic,copy)NSString *searchStr;
 -(void)configWithArticle:(MyArticleModel *)model;
 -(void)configWithArticle:(MyArticleModel *)model withType:(NSInteger)type;
 @end

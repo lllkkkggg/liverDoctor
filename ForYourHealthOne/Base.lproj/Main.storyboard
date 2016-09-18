@@ -182,7 +182,7 @@
                                     <action selector="uploadBtnClick:" destination="XmA-eI-1fd" eventType="touchUpInside" id="du7-8V-kSE"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="请输入内容" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zCt-vc-a9A">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zCt-vc-a9A">
                                 <rect key="frame" x="20" y="81" width="560" height="356"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>

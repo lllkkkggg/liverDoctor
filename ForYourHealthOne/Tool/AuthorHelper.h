@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface AuthorHelper : NSObject
-
++(void)authenticateUser;
 @end

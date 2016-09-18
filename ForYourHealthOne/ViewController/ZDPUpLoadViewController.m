@@ -28,6 +28,7 @@
     _contentTV.layer.cornerRadius = 8;
     _uploadBtn.layer.masksToBounds = YES;
     _uploadBtn.layer.cornerRadius = 15;
+    _contentTV.text = @"请输入内容";
     _rightBtn = [[UIBarButtonItem alloc]initWithTitle:@"完成" style:UIBarButtonItemStyleDone target:self action:@selector(rightClick)];
     _rightBtn.tintColor = [UIColor whiteColor];
     self.contentTV.textContainerInset = UIEdgeInsetsMake(10, 0, 10, 0);
